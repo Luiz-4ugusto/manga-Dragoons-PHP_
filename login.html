@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MANGA DRAGOONS</title>
+  <link rel="stylesheet" href="css/login.css">
+  <link rel="icon" href="img/MangaDragoons.jpeg">
+</head>
+
+<body class="center">
+  <div class="retangulo">
+    <div class="imgFundo">
+      <img src="img/MANGADRAGOONS1.png" height="300" width="700" alt="Manga Dragoons">
+    </div>
+
+    <hr>
+
+    <header>
+      <div class="meio">
+        <div class="one">
+          <img src="img/MangaDragoons.jpeg" height="300" width="450" alt="Manga Dragoons Logo">
+        </div>
+      </div>
+    </header>
+    
+    <div class="page">
+      <form action="login.php" method="POST" class="formLogin">
+        <div id="alert" style="display: none; color: red; margin-top: 10px;"></div>
+      
+        <h1>Login</h1>
+        <p>Digite os seus dados para acessar sua conta.</p>
+      
+        <label for="username">Usuário</label>
+        <input type="text" id="username" name="username" placeholder="Digite seu usuário">
+      
+        <label for="password">Senha</label>
+        <input type="password" id="password" name="password" placeholder="Digite sua senha">
+      
+        <button type="submit" class="button">Entrar</button>
+      
+        <a id="naoposuiconta" href="CADASTRAR.HTML">Não possui conta?</a>
+      </form>
+      
+    </div>
+  </div>
+
+  <script src="js/login.js"></script>
+</body>
+</html>
